@@ -1,5 +1,4 @@
-# HEALTH DIAGNOSIS, TREATMENT STRATEGY, AND CLUSTERING APPLICATION DOCUMENTATION
-
+# HEALTH DIAGNOSIS, TREATMENT STRATEGY, AND CLUSTERING 
 <img src="https://github.com/user-attachments/assets/90e6bb44-455c-4079-9a4d-59feadce6fdb" alt="logo7" width="100" height="100" />
 
 - **Location**: Dodoma, Tanzania
@@ -7,7 +6,21 @@
 - **WhatsApp**: [+255675839840](https://wa.me/255675839840)
 - **Demo**: [Online](https://clinicaltreatment.pythonanywhere.com/)
   <!--- **Youtube**: [Videos](https://www.youtube.com/channel/UCjepDdFYKzVHFiOhsiVVffQ)-->
-  
+
+  | Rank | Professional Target Audience          |
+|------|---------------------------------------|
+| 1    | Healthcare Researchers (Epidemiologists, Clinical Researchers) |
+| 2    | Physicians (General Practitioners and Specialists) |
+| 3    | Public Health Officials (Health Department Personnel, Policy Makers) |
+| 4    | Hospital Administrators |
+| 5    | Nurses |
+| 6    | Data Analysts in Healthcare |
+| 7    | Medical Directors |
+| 8    | Pharmacists |
+| 9    | Clinic Administrators |
+| 10   | Medical Educators (Professors of medicine) |
+
+
 ## 1. INTRODUCTION
 
 This application aims to provide insights into health diagnosis and treatment strategies by clustering patient data based on similarities. In the context of healthcare, effective diagnosis and treatment are crucial for improving patient outcomes.
