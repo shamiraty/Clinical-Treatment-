@@ -1,11 +1,11 @@
 # HEALTH DIAGNOSIS, TREATMENT STRATEGY, AND CLUSTERING APPLICATION DOCUMENTATION
 
-![logo7](https://github.com/user-attachments/assets/90e6bb44-455c-4079-9a4d-59feadce6fdb)
+<img src="https://github.com/user-attachments/assets/90e6bb44-455c-4079-9a4d-59feadce6fdb" alt="logo7" width="100" height="100" />
 
 - **Location**: Dodoma, Tanzania
 - **Email**: [sashashamsia@gmail.com](mailto:sashashamsia@gmail.com)
 - **WhatsApp**: [+255675839840](https://wa.me/255675839840)
-- **Demo**: [+255675839840](https://wa.me/255675839840)
+- **Demo**: [Online](https://clinicaltreatment.pythonanywhere.com/)
   <!--- **Youtube**: [Videos](https://www.youtube.com/channel/UCjepDdFYKzVHFiOhsiVVffQ)-->
   
 ## 1. INTRODUCTION
