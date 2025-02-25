@@ -1,4 +1,11 @@
-# HEALTH DIAGNOSIS, TREATMENT STRATEGY, AND CLUSTERING 
+## 🩺 HEALTH DIAGNOSIS, TREATMENT STRATEGY, AND CLUSTERING 📊
+
+### 🔍 FINDING HEALTH PATTERNS: BETTER TREATMENTS FOR PATIENT SEGMENTS 💊
+
+### 📈 HEALTH DATA ANALYSIS: SEEING PATIENT SEGMENTS TO IMPROVE CARE 🏥
+
+### 🤝 UNDERSTANDING PATIENT SEGMENTS: PERSONALIZED HEALTH HELP 💡
+
 <img src="https://github.com/user-attachments/assets/90e6bb44-455c-4079-9a4d-59feadce6fdb" alt="logo7" width="100" height="100" />
 
 - **Location**: Dodoma, Tanzania
@@ -7,18 +14,18 @@
 - **Demo**: [Online](https://clinicaltreatment.pythonanywhere.com/)
   <!--- **Youtube**: [Videos](https://www.youtube.com/channel/UCjepDdFYKzVHFiOhsiVVffQ)-->
 
-  | Rank | Professional Target Audience          |
-|------|---------------------------------------|
-| 1    | Healthcare Researchers (Epidemiologists, Clinical Researchers) |
-| 2    | Physicians (General Practitioners and Specialists) |
-| 3    | Public Health Officials (Health Department Personnel, Policy Makers) |
-| 4    | Hospital Administrators |
-| 5    | Nurses |
-| 6    | Data Analysts in Healthcare |
-| 7    | Medical Directors |
-| 8    | Pharmacists |
-| 9    | Clinic Administrators |
-| 10   | Medical Educators (Professors of medicine) |
+| Icon | Rank | Professional Target Audience                                |
+|------|------|------------------------------------------------------------|
+| 🔬  | 1    | Healthcare Researchers (Epidemiologists, Clinical Researchers) |
+| 🩺  | 2    | Physicians (General Practitioners and Specialists)            |
+| 🏛️  | 3    | Public Health Officials (Health Department Personnel, Policy Makers) |
+| 🏢  | 4    | Hospital Administrators                                      |
+| 👩‍⚕️ | 5    | Nurses                                                     |
+| 📊  | 6    | Data Analysts in Healthcare                                   |
+| 👨‍💼 | 7    | Medical Directors                                          |
+| 💊  | 8    | Pharmacists                                                 |
+| 🏥  | 9    | Clinic Administrators                                        |
+| 🎓  | 10   | Medical Educators (Professors of medicine)                   |
 
 
 ## 1. INTRODUCTION
