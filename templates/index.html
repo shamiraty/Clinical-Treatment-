@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Disease Clustering</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="{{ url_for('static', filename='bootstrap/css/theme2.css') }}" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .logo-container img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .form-control, .btn {
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: #4caf50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+        }
+
+        .btn-primary:hover {
+            background-color: #388e3c;
+            border-color: #2e7d32;
+        }
+
+        .btn-lg {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        .select2-container .select2-selection--single {
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="logo-container">
+                <img src="{{ url_for('static', filename='img/logo7.gif') }}" alt="Logo">
+            </div>
+            <h1 class="text-center text-primary mb-4">Health Disease Clustering</h1>
+
+            <!-- Filter by Location -->
+            <form method="GET" class="mb-3">
+                <div class="form-group">
+                    <select class="form-control select2" id="location" name="location">
+                        <option value="">All Locations</option>
+                        {% for location in locations %}
+                        <option value="{{ location }}" {% if location == location_filter %}selected{% endif %}>{{ location }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-2"><i class="fas fa-filter"></i> Filter</button>
+            </form>
+
+            <!-- Generate Results Button -->
+            <form method="POST">
+                <button type="submit" class="btn btn-success btn-lg w-100"><i class="fas fa-sync-alt"></i> Generate Results</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <!-- Initialize Select2 -->
+    <script>
+        $(document).ready(function() {
+            $('#location').select2();
+        });
+    </script>
+</body>
+</html>
