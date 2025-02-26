@@ -27,7 +27,14 @@
 | 🏥  | 9    | Clinic Administrators                                        |
 | 🎓  | 10   | Medical Educators (Professors of medicine)                   |
 
+## Disclaimer
 
+> The patient records used to train and test the **Symptom-Matcher AI** model are **not real patient data**. They are **fictitious data** that have been generated for educational purposes only. These records have no connection to any actual individuals or real-life medical conditions. 
+
+> The diseases and symptoms displayed in the application are **for learning and demonstration purposes**. They do not represent actual medical diagnoses and should not be interpreted as such. The use of these simulated cases is intended solely for academic and training purposes.
+
+> This application and its content are not intended to diminish or disrespect the real-world medical field, institutions, or individuals. The information presented is purely hypothetical and should not be used for making medical decisions. The primary goal of this project is to provide a platform for learning and development in the field of machine learning and healthcare technology.
+> 
 ## 1. INTRODUCTION
 
 This application aims to provide insights into health diagnosis and treatment strategies by clustering patient data based on similarities. In the context of healthcare, effective diagnosis and treatment are crucial for improving patient outcomes.
